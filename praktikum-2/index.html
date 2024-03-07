@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ini adalaih praktikum kedua matakuliah pemrograman web" />
+  <meta title="Praktikum" />
+  <meta name="keyword" content="praktikum, web, pemrograman web" />
+  <meta name="author" content="Irfan Yasin" />
+  <title>Pemrograman Web Tingkat Lanjut</title>
+</head>
+
+<body>
+
+  <!-- Strong -->
+  <strong>Pengenalan HTML tingkat Lanjut</strong>
+  <!-- hr = garis -->
+  <hr />
+
+  <h1>Hello World</h1>
+
+  <!-- Form Input -->
+  <div>
+    <form action="" method="get">
+      <div><input type="text" name="default_input" /></div>
+      <div>
+        <input type="text" name="dengan_placeholder" placeholder="masukan nama anda" />
+      </div>
+      <div>
+        <input type="text" name="dengan_readonly" value="informatika" readonly />
+      </div>
+      <div>
+        <input type="text" name="dengan_readonly" value="disable input" disabled />
+      </div>
+      <div>
+        <input type="text" name="dengan_required" placeholder="input required" required />
+      </div>
+      <div>
+        <input type="email" name="email" placeholder="masukan email anda" />
+      </div>
+      <div>
+        <input type="password" name="password" placeholder="input password" />
+      </div>
+      <div>
+        <input type="date" name="date" placeholder="input date" />
+      </div>
+      <div>
+        <input type="time" name="time" placeholder="input time" />
+      </div>
+      <div>
+        <input type="datetime-local" name="datetime-local" placeholder="input datetime" />
+      </div>
+      <div>
+        <input type="search" name="search" placeholder="input search" />
+      </div>
+      <div>
+        <input type="color" name="color" placeholder="input color" />
+      </div>
+      <div>
+        <input type="file" name="file" />
+      </div>
+      <div>
+        <input type="hidden" name="pesan_sembunyi" value="rahasia" />
+      </div>
+
+      <!-- textarea -->
+      <div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="input text area"></textarea>
+      </div>
+
+      <!-- select -->
+      <div>
+        <select name="pilihan" id="">
+          <option value="1">Pilihan 1</option>
+          <option value="2">Pilihan 2</option>
+          <option value="3" selected>Pilihan 3</option>
+          <option value="4">Pilihan 4</option>
+          <option value="5">Pilihan 5</option>
+        </select>
+      </div>
+
+      <!-- radio -->
+      <div>
+        <input type="radio" name="gender" id="male" />
+        <label for="male">Laki-laki</label>
+        <input type="radio" name="gender" id="female" />
+        <label for="female">Perempuan</label>
+      </div>
+
+      <!-- checkbox -->
+      <div>
+        <input type="checkbox" name="checkbox1" value="checkbox1" id="checkbox1" />
+        <label for="checkbox1">Checkbox 1</label>
+        <input type="checkbox" name="checkbox2" value="checkbox2" id="checkbox2" />
+        <label for="checkbox2">Checkbox 2</label>
+      </div>
+
+      <!-- old version button-->
+      <div>
+        <input type="submit" value="simpan" name="simpan" />
+        <input type="reset" value="reset" name="reset" />
+        <input type="button" value="button" name="button" />
+      </div>
+
+      <!-- modern version button -->
+      <div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button">Button</button>
+      </div>
+
+
+    </form>
+  </div>
+
+  <br /><br /><br /><br />
+  <hr />
+  <br /><br />
+
+  <!-- Embed -->
+  <div>
+    <embed src="assets/LAPORAN PRAKTIKUM PAA - PROBLEM PERTAMA.pdf" type="application/pdf" width="600" height="900" />
+  </div>
+  <br /><br /><br />
+
+  <!-- Object -->
+  <div>
+    <object data="assets/LAPORAN PRAKTIKUM PAA - PROBLEM PERTAMA.pdf" type="application/pdf" width="400"
+      height="800"></object>
+  </div>
+
+
+  <br /><br /><br />
+
+  <!-- Iframe -->
+  <div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/JmCLgJ7VTGc?si=wYll5PHUlBZOBGhe"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+  </div>
+  <br /><br /><br /><br />
+
+  <div>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.3797403374724!2d112.7263400750476!3d-7.311166492696745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbd1cb925a1d%3A0x1dbecb0b2e9b059f!2sUniversitas%20Telkom%20Surabaya!5e0!3m2!1sid!2sid!4v1709774142774!5m2!1sid!2sid"
+      width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <br /><br /><br /><br />
+
+  <div>
+    <iframe src="https://tv.idlixofficial.co/episode/the-walking-dead-the-ones-who-live-season-1-episode-1/" width="600"
+      height="450" style="border: 0" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+
+
+  <br /><br /><br /><br />
+  <hr />
+  <br /><br />
+
+
+  <!-- Semantic HTML -->
+
+  <h2>Semantic HTML</h2>
+  <header>
+    <h1>Ini adalah header</h1>
+  </header>
+  <nav>ini adalah navbar</nav>
+  <aside>ini adalah sidebar</aside>
+  <main>
+    <section>ini adalah section</section>
+    <article>ini adalah article</article>
+  </main>
+  <footer>ini adalah footer</footer>
+
+
+  <hr />
+  <div>
+    <center>
+      <strong>Program Studi Informatike Telkom University</strong>
+    </center>
+  </div>
+</body>
+
+</html>
