@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    :root {
+      --lightgreen-color: #43ACAB;
+      --grey-color: #474747;
+      --lightgrey-color: #EFEFEF;
+      --white-color: #FFFFFF;
+    }
+
+    * {
+      font-family: Arial;
+    }
+
+    ul {
+      display: flex;
+    }
+
+    ul li {
+      list-style: none;
+      background-color: var(--lightgrey-color);
+    }
+
+    ul li a {
+      padding: 15px 25px;
+      display: block;
+      text-decoration: none;
+      color: black;
+      font-size: 24px;
+      border-bottom: 4px solid var(--lightgrey-color);
+    }
+
+    ul li a.active {
+      background-color: var(--lightgreen-color);
+      color: var(--white-color);
+      padding: 15px 25px;
+    }
+
+    ul li a:hover {
+      background-color: var(--grey-color);
+      color: var(--white-color);
+      border-bottom: 4px solid var(--lightgreen-color);
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">Service</a></li>
+      <li><a href="#">Project</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </nav>
+</body>
+
+</html>
